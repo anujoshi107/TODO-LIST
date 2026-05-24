@@ -17,7 +17,7 @@ function App() {
       )
     );
   }
-  const deletetodo = (id) => {
+  const deletetodo =    (id) => {
     settodos((prev) => prev.filter((prevval) => prevval.id != id))
   }
   const togglecomplete = (id) => {
@@ -43,7 +43,7 @@ function App() {
           </div>
           <div className="flex flex-wrap gap-y-3">
 
-            {todos.map((todo) => (
+            {todos.map((todo)   => (
               <div key={todo.id}
                 className='w-full'
               >
